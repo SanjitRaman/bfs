@@ -1,5 +1,4 @@
 from pandas import read_csv
-import numpy as np
 
 # input format:
 # n - the number of nodes in the graph
@@ -60,4 +59,8 @@ def breadth_first_search(s,e):
     # return the reconstructed path from s->e
     return reconstruct_path(prev,s,e)
     
-print(breadth_first_search(0,12))
+shortest_path = breadth_first_search(0,12)
+
+labelled_shortest_path = [labels[i] for i in shortest_path]
+
+print(labelled_shortest_path)

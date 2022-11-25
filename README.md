@@ -1,8 +1,8 @@
-## Based on WilliamFiset's explanation of the Breadth-First Search Algorithm.
+# Based on WilliamFiset's explanation of the Breadth-First Search Algorithm.
 
 Youtube: https://www.youtube.com/watch?v=oDqjPvD54Ss
 
-# Get Started
+## Get Started
 
 0. Clone the repository.
 1. Install the requirements:
@@ -11,6 +11,6 @@ Youtube: https://www.youtube.com/watch?v=oDqjPvD54Ss
 
 The program is written to mirror the pseudocode as closely as possible so that the program is interactive.
 
-# Run your own graphs?
+## Run your own graphs?
 You can easily change the graph by rewriting:
 adjacency_matrix.csv
